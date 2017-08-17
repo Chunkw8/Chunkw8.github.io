@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Now Ui Kit by Creative Tim</title>
+    <title>Now with background video</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -16,9 +16,17 @@
     <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/video.css">
 </head>
 
 <body class="index-page">
+   <video autoplay loop>
+   <source src="assets/video/Writing-Working.mp4" type="video/mp4">
+   <source src="assets/video/Writing-Working.webm" type="video/webm">
+   <source src="assets/video/Writing-Working.ogv" type="video/ogg"/>
+</video>
+ 
+    <!-- Background video-->
     <!-- Navbar -->
     <nav class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent " color-on-scroll="500">
         <div class="container">
@@ -69,9 +77,10 @@
         </div>
     </nav>
     <!-- End Navbar -->
+    
     <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/header.jpg');">
+            <div class="page-header-image" data-parallax="true">
             </div>
             <div class="container">
                 <div class="content-center brand">
@@ -88,7 +97,8 @@
                     </a>.</h6>
             </div>
         </div>
-        <div class="main">
+    </div>
+     <div class="main">
             <div class="section section-images">
                 <div class="container">
                     <div class="row">
@@ -106,7 +116,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </body>
 <!--   Core JS Files   -->
@@ -134,7 +143,8 @@
                 scrollTop: $('.section-download').offset().top
             }, 1000);
         }
-    }
+    };
+
 </script>
 
 </html>

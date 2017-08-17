@@ -47,7 +47,11 @@
 #pagination-row .pagination-container{
     height: 100%;
     max-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -162,6 +166,7 @@
     top: 90px;
     max-height: 80vh;
     overflow: scroll;
+    position: -webkit-sticky;
     position: sticky;
 }
 
@@ -282,8 +287,6 @@
 /*      transitions */
 .presentation .front, .presentation .front:after, .presentation .front .btn, .logo-container .logo, .logo-container .brand{
      -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;
     transition: all .2s;
 }
 
