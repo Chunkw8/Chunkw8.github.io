@@ -68,15 +68,32 @@ p {
     font-size: 20px;
     color: #8c8f94;
 }
-
-
-.video img {
-    padding-top: 55px;
-    padding-bottom: 80px;
+/* center button 'watch video' */
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 48px;
+    text-decoration: none;
+    color: #26272d;
+    border: 1px solid rgba(38, 39, 45, 0.1);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
+
+.fa.fa-play {
+    margin-right: 15px;
+}
+
+
+/* right button 'help' */
 
 .greybutton a {
     color: #9f9fa0;
+}
+
+.greybutton a:hover {
+    color: blue;
 }
 
 
