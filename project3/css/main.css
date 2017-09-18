@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(148, 141, 234, 0.15);
+}
+
+p #n1 {
+    width: 200px;
+}
+
+p #i1 {
+    width: 100px;
+    margin-left: 10px;
+}
+
+p {}
+
+p #n2 {
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+p #n4 {
+    width: 100px;
+    margin-left: 10px;
+}
+
+p #n3 {
+    width: 100px;
+    margin-left: 10px;
+}
+.left-col {
+}
+.left-col p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+}
+..btn {
+}
+.btn.btn-primary{ 
+    margin-top: 10px;
+    width: 400px;
+}
