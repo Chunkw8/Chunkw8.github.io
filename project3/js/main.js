@@ -11,7 +11,7 @@ function calculation() {
     num4 = document.getElementById('n4').value; /* Первоначальный взнос */
     num4 = parseInt(num4);
 
-    num5 = ((num2 - num4) + (num2-num4) / 100 * 10); /* расчет суммы кредита + 10% с вычитом первоначального взноса */
+    num5 = ((num2 - num4) + (num2-num4) / 100 * 20); /* расчет суммы кредита + 10% с вычитом первоначального взноса */
 
 
 
