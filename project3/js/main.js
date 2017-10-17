@@ -18,7 +18,7 @@
  	num2 = document.getElementById('n2').value; /* Сумма кредита */
  	num2 = parseInt(num2);
 
- 	//num3 = 23.8 / 12; /* Вшитая процентная ставка в год деленая на количество месяцев в году */
+ 	num3a = num3 / 12; /* Вшитая процентная ставка в год деленая на количество месяцев в году */
 
 
  	num4 = document.getElementById('n4').value; /* Первоначальный взнос */
@@ -29,7 +29,7 @@
  	}
  	num5 = ((num2 - num4) + (num2 - num4) / 100 * 13); /* расчет суммы кредита + 13% с вычитом первоначального взноса */
 
- 	result = num5 / 100 * num3 * num1 + num5; /* расчет результата */
+ 	result = num5 / 100 * num3a * num1 + num5; /* расчет результата */
 
  	document.getElementById('out').innerHTML = result;
  }
